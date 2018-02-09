@@ -6,13 +6,13 @@
 </form>
 <?php
 
-    if(isset($_POST['validate'])) {
+if(isset($_POST['validate'])) {
 
-        $valeur = $_POST['valeur']*1.22574;
+    $valeur = $_POST['valeur']*1.22574;
 
 
-        echo $valeur . ' ' . 'Dollar américain';
-    }
+    echo $valeur . ' ' . 'Dollar américain';
+}
 else{
     echo 'Veuillez entrer un nombre';
 }
